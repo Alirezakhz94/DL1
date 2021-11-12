@@ -18,7 +18,7 @@ from tensorflow.keras.layers import Dense
 from tensorflow.keras.optimizers import Adam
 
 #Opening the file
-df = pd.read_csv("Alirezakhz94/DL1/admissions_data.csv")
+df = pd.read_csv("https://github.com/Alirezakhz94/DL1/blob/main/admissions_data.csv")
 
 #Preprocess
 labels = df.iloc [:,-1]
